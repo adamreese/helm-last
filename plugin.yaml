@@ -1,0 +1,7 @@
+---
+name: "last"
+version: "0.1.0"
+usage: "get the last release name"
+description: "get the last release name"
+useTunnel: true
+command: "$HELM_BIN --host $TILLER_HOST list --short --max 1 --date -r"

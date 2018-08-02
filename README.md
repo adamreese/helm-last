@@ -9,7 +9,7 @@ $ helm get $(helm last)
 ## Install
 
 ```
-$ helm plugin install https://github.com/adamreese/helm-last
+$ helm plugin install https://github.com/adamreese/helm-last --version master
 Installed plugin: last
 ```
 
